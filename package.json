@@ -1,0 +1,40 @@
+{
+  "name": "coinolio-cli",
+  "version": "1.0.0",
+  "description": "A CLI to control and view Coinolio data",
+  "main": "index.js",
+  "bin": {
+    "coinolio": "./bin/coinolio-cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coinolio/coinolio-cli.git"
+  },
+  "keywords": [
+    "coinolio",
+    "cryptocurrency",
+    "portfolio",
+    "tracking"
+  ],
+  "author": "Matthew Harrison-Jones <https://github.com/matthojo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/coinolio/coinolio-cli/issues"
+  },
+  "homepage": "https://github.com/coinolio/coinolio-cli#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "blessed-contrib": "^4.8.5",
+    "chalk": "^2.3.0",
+    "cli": "^1.0.1",
+    "debug": "^3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "^4.15.0",
+    "eslint-config-google": "^0.9.1"
+  }
+}
